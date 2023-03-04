@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="s.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header flex row-center-two">
+        <h1 class="head-1">Multiple Intelligence Survey</h1>
+      </header>
+      <!-- user identification -->
+      <form id="user-identification">
+        <!-- name -->
+        <p>Name</p>
+
+        <!-- user-input -->
+        <div class="user-input flex">
+          <!-- first name -->
+          <div class="first-name">
+            <input type="text" name="fname" id="fname" class="user-name" />
+            <p>First Name</p>
+          </div>
+          <!-- last name -->
+          <div class="last-name">
+            <input type="text" name="lname" id="fname" class="user-name" />
+            <p>First Name</p>
+          </div>
+        </div>
+
+        <!-- survey -->
+        <div class="survey">
+          <!-- survey title -->
+          <div class="survey-title">
+            <h3 class="head-3">
+              Please choose the answer for each statement indicating how well
+              that statement describes you
+            </h3>
+            <p>
+              1 Not describe, 2 Describes very little, 3 Describes somewhat, 4
+              Describes well, 5 Describes exactly
+            </p>
+          </div>
+          <!-- survey-options: 1 -->
+          <div class="survey-option">
+            <p>I like participating in social events</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one" name="user-choice-1" />
+              <label for="one"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two" name="user-choice-1" />
+              <label for="two"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three" name="user-choice-1" />
+              <label for="three"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four" name="user-choice-1" />
+              <label for="four"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five" name="user-choice-1" />
+              <label for="five"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 2 -->
+          <div class="survey-option">
+            <p>I enjoy shows about animals and nature</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-2" name="user-choice-2" />
+              <label for="one-2"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-2" name="user-choice-2" />
+              <label for="two-2"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-2" name="user-choice-2" />
+              <label for="three-2"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-2" name="user-choice-2" />
+              <label for="four-2"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-2" name="user-choice-2" />
+              <label for="five-2"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 3 -->
+          <div class="survey-option">
+            <p>I can easily find my way at unfamiliar places</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-3" name="user-choice-3" />
+              <label for="one-3"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-3" name="user-choice-3" />
+              <label for="two-3"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-3" name="user-choice-3" />
+              <label for="three-3"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-3" name="user-choice-3" />
+              <label for="four-3"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-3" name="user-choice-3" />
+              <label for="five-3"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 4 -->
+          <div class="survey-option">
+            <p>I can play at least one musical instrument</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-4" name="user-choice-4" />
+              <label for="one-4"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-4" name="user-choice-4" />
+              <label for="two-4"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-4" name="user-choice-4" />
+              <label for="three-4"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-4" name="user-choice-4" />
+              <label for="four-4"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-4" name="user-choice-4" />
+              <label for="five-4"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 5 -->
+          <div class="survey-option">
+            <p>I like to write</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-5" name="user-choice-5" />
+              <label for="one-5"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-5" name="user-choice-5" />
+              <label for="two-5"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-5" name="user-choice-5" />
+              <label for="three-5"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-5" name="user-choice-5" />
+              <label for="four-5"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-5" name="user-choice-5" />
+              <label for="five-5"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 6 -->
+          <div class="survey-option">
+            <p>Pollution bothers me</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-6" name="user-choice-6" />
+              <label for="one-6"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-6" name="user-choice-6" />
+              <label for="two-6"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-6" name="user-choice-6" />
+              <label for="three-6"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-6" name="user-choice-6" />
+              <label for="four-6"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-6" name="user-choice-6" />
+              <label for="five-6"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 7 -->
+          <div class="survey-option">
+            <p>I enjoy nature walks in scenic places</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-7" name="user-choice-7" />
+              <label for="one-7"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-7" name="user-choice-7" />
+              <label for="two-7"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-7" name="user-choice-7" />
+              <label for="three-7"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-7" name="user-choice-7" />
+              <label for="four-7"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-7" name="user-choice-7" />
+              <label for="five-7"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 8 -->
+          <div class="survey-option">
+            <p>I prefer books with a lot of pictures in them</p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-8" name="user-choice-8" />
+              <label for="one-8"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-8" name="user-choice-8" />
+              <label for="two-8"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-8" name="user-choice-8" />
+              <label for="three-8"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-8" name="user-choice-8" />
+              <label for="four-8"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-8" name="user-choice-8" />
+              <label for="five-8"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 9 -->
+          <div class="survey-option">
+            <p>I would rather spend the evening at home than at a social event </p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-9" name="user-choice-9" />
+              <label for="one-9"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-9" name="user-choice-9" />
+              <label for="two-9"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-9" name="user-choice-9" />
+              <label for="three-9"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-9" name="user-choice-9" />
+              <label for="four-9"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-9" name="user-choice-9" />
+              <label for="five-9"><span>5</span></label>
+            </div>
+          </div>
+
+          <!-- survey-options: 10 -->
+          <div class="survey-option">
+            <p>I am intuitive </p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-10" name="user-choice-10" />
+              <label for="one-10"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-10" name="user-choice-10" />
+              <label for="two-10"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-10" name="user-choice-10" />
+              <label for="three-10"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-10" name="user-choice-10" />
+              <label for="four-10"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-10" name="user-choice-10" />
+              <label for="five-10"><span>5</span></label>
+            </div>
+          </div>
+
+           <!-- survey-options: 11 -->
+          <div class="survey-option">
+            <p>I I love to meet new people and make new friends </p>
+            <!-- survey option choice -->
+            <div class="survey-option-choice">
+              <!-- first choice -->
+              <input type="radio" id="one-11" name="user-choice-11" />
+              <label for="one-11"><span>1</span></label>
+              <!-- second choice -->
+              <input type="radio" id="two-11" name="user-choice-11" />
+              <label for="two-11"><span>2</span></label>
+              <!-- third choice -->
+              <input type="radio" id="three-11" name="user-choice-11" />
+              <label for="three-11"><span>3</span></label>
+              <!-- fourth choice -->
+              <input type="radio" id="four-11" name="user-choice-11" />
+              <label for="four-11"><span>4</span></label>
+              <!-- second choice -->
+              <input type="radio" id="five-11" name="user-choice-11" />
+              <label for="five-11"><span>5</span></label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- submit -->
+        <input type="submit" value="Submit" id="submit-btn" class="flex">
+      </form>
+    </div>
+  </body>
+</html>

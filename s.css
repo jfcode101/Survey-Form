@@ -1,0 +1,196 @@
+:root {
+    /* font family */
+    --main-font: 'Lato', sans-serif;
+
+    /* colors */
+    --spring-time-rain-color: #ecedf3;
+    --dreamy-cloud-color: #e5e6ec;
+    --white-color: #fff;
+    --maritime-blue-color: #2c3345;
+    --atlantic-charter-color: #2b3041;
+    --secret-society-color: #464c5c;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    font-family: var(--main-font);
+    background-color: var(--spring-time-rain-color);
+    letter-spacing: 1px;
+}
+
+body {}
+
+/* ---------------------------------------- Wrapper ---------------------------------------- */
+.wrapper {
+    max-width: 750px;
+    height: auto;
+    background-color: var(--white-color);
+    margin: 4rem auto;
+    color: var(--maritime-blue);
+    box-shadow: -1px 1px 4px -1px var(--maritime-blue-color);
+}
+
+/* -------------------- start: common classes -------------------- */
+/* flex */
+.flex {
+    display: flex;
+}
+
+/* direction: row; align-items: center; justify-content: center */
+.row-center-two {
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.head-3 {
+    font-size: 1.25rem;
+}
+
+/* -------------------- end: common classes -------------------- */
+
+
+/* -------------------- header -------------------- */
+.header {
+    height: 9.375rem;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2rem;
+}
+
+
+/* -------------------- form: user-identification -------------------- */
+#user-identification {
+    margin-bottom: 2rem;
+    padding: 0 3rem 2rem;
+    align-items: flex-start;
+    gap: 1rem;
+    color: var(--atlantic-charter-color);
+}
+
+#user-identification p:first-child {
+    font-size: 1.1rem;
+}
+
+/*  user input*/
+.user-input {
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.first-name,
+.last-name {
+    flex: 1;
+    width: 100%;
+}
+
+/* user name */
+.user-name {
+    width: 100%;
+    outline: none;
+    font: normal 400 1rem var(--main-font);
+    color: var(--secret-society-color);
+    padding: .5rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 1rem 0;
+    transition: .1s ease-in-out;
+}
+
+.user-name:hover {
+    outline: 2px solid #99bdff;
+    /* outline-offset: 1px; */
+}
+
+.user-input p {
+    color: var(--secret-society-color);
+    font-size: .9rem;
+}
+
+/* ------- survey ------- */
+.survey {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2rem;
+}
+
+.survey .head-3 {
+    margin-bottom: .5rem;
+}
+
+/* ---- survey title ---- */
+
+.survey-title p {
+    font-size: .80rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* ---- survey option ---- */
+.survey-option p {
+    margin-bottom: 2rem;
+}
+
+.survey-option input {
+    display: none;
+    transition: all .2s ease-in-out;
+}
+
+.survey-option label {
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 50%;
+    color: grey;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.survey-option label:hover {
+    background-color: #a5ddf7;
+    border: 1px solid #23aff0;
+}
+
+.survey-option input:checked+label {
+    background-color: #5e93f5;
+    color: var(--white-color);
+    border: 1px solid #23aff0;
+}
+
+/* submit button */
+#submit-btn {
+    
+    margin: auto;
+    background-color: #16aa52;
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font: normal 400 1.1rem var(--main-font);
+    transition: all .2s ease-in-out;
+}
+
+#submit-btn:hover {
+    background-color: #149648;
+}
