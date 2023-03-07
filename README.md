@@ -3,7 +3,7 @@ Survey Form web page made using HTML and CSS.
 
     - This form is a clone from https://www.jotform.com/build/230624769356161
 
-    - Color picked  using Mozilla firefox tool:
+    - Mozilla firefox Eyedropper tool:
                     1. Click on < Open application menu > icon
                     2. Select < More tools >
                     3. Select < Eyedropper >
